@@ -16,8 +16,8 @@ pkgs: {
         packages.myVimPackage = with pkgs.vimPlugins; {
             start = [
                 ctrlp
-                    airline
-                    nvim-treesitter.withAllGrammars
+                airline
+                nvim-treesitter.withAllGrammars
             ];
         };
     };
