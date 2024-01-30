@@ -7,5 +7,5 @@ Import `neovim-config.nix` into `/etc/nixos/configuration.nix` with:
 
 ```nix
 imports = [
-    import your_path/configNix/neovim-config.nix
+    your_path/configNix/neovim-config.nix
 ];
