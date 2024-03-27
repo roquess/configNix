@@ -15,6 +15,7 @@
                 set backspace=indent,eol,start
                 nmap <F6> :e .<CR>
                 set mouse=
+                set clipboard+=unnamedplus
                 '';
             packages.myVimPackage = with pkgs.vimPlugins; {
                 start = [
